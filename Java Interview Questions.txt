@@ -1,0 +1,425 @@
+Core Java Questions 
+----------------------------------
+Main features of Java?
+Difference between JDK, JRE, and JVM?
+Principles of Object-Oriented Programming (OOP).
+Difference between == and equals()?
+Access modifiers in Java?
+Why is Java platform-independent?
+Significance of the main() method in Java?
+Difference between String, StringBuilder, and StringBuffer?
+Constructor, and what are its types?
+What is the purpose of the static keyword?
+Difference between final, finally, and finalize()?
+Immutability in Java with an example.
+What are exceptions? How do you handle exceptions in Java?
+Difference between checked and unchecked exceptions?
+How is the hashCode() and equals() method used in Java?
+Difference between ArrayList and LinkedList?
+Difference between HashMap and HashTable?
+Lifecycle of a thread in Java.
+Garbage collection, and how does it work in Java?
+Differences between abstract class and interface?
+Memory management in Java?
+transient and volatile keywords in Java?
+Marker interface and its use?
+Functional interfaces in Java 8?
+What is the significance of synchronized in Java?
+Difference between Runnable and Callable interfaces?
+Explain fail-fast and fail-safe iterators.
+What are Java Streams, and how are they used?
+
+What is the purpose of the Optional class in Java?
+How does garbage collection work in Java?
+What is the significance of the transient keyword?
+What is a volatile keyword, and when is it used?
+How does the synchronized keyword work in Java?
+Difference between wait() and sleep() methods?
+Explain the concept of immutability in Java.
+What is a functional interface, and how is it used in Java 8?
+What are Java’s default methods, and why are they introduced?
+
+Exception
+----------------------------------
+What are the types of exceptions in Java?
+Diff b/w Exception and Error
+Exception-handling keywords in Java?
+Difference between throw and throws?
+What happens if an exception is not caught?
+What are runtime exceptions?
+What is a try-with-resources statement?
+How do you create a custom exception in Java?
+How do you handle exceptions in a multi-threaded environment?
+What happens when an exception occurs in a static block?
+How do you log exceptions?
+What are the most common exceptions in Java?
+Difference between NoClassDefFoundError and ClassNotFoundException?
+How to avoid null pointer exceptions?
+
+Multithreading and Concurrency
+----------------------------------
+Difference between a thread and a process?
+Difference between Runnable and Callable?
+Explain thread lifecycle in Java.
+How does ReentrantLock differ from synchronized?
+What is the use of ThreadLocal class?
+How does Java implement concurrency in ExecutorService?
+What are deadlocks, and how do you prevent them?
+Explain the Fork/Join framework in Java.
+What are the different states of a thread?
+What is a thread pool?
+Explain the Callable interface and how it differs from Runnable.
+What is the volatile keyword in Java?
+How does synchronization work in multithreading
+
+
+Collections Framework
+----------------------------------
+What is the Java Collections Framework?
+What are the core interfaces of the Collections Framework?
+Difference between List, Set, and Map?
+Difference between map() and flatMap() in Streams?
+Difference between ArrayList and LinkedList?
+Difference between HashSet and TreeSet?
+What is the purpose of the Iterator interface?
+Difference between Iterator and ListIterator?
+Difference between Vector and ArrayList?
+How is a HashMap different from a HashTable?
+Difference between LinkedHashMap and TreeMap?
+How is HashSet implemented internally?
+Difference between Comparable and Comparator?
+What is the purpose of the Collections utility class?
+Difference between HashMap and Hashtable.
+Difference between synchronizedList() and CopyOnWriteArrayList?
+Differences between fail-fast and fail-safe iterators?
+What is the role of equals() and hashCode() in collections?
+How is a HashMap implemented internally?
+What is a PriorityQueue, and when would you use it?
+Difference between poll(), peek(), and remove() methods in a Queue?
+Difference between immutable and unmodifiable collections?
+How does ConcurrentHashMap differ from HashMap?
+Difference between IdentityHashMap and HashMap?
+What is a WeakHashMap, and how is it different from HashMap?
+Explain the role of NavigableSet and NavigableMap.
+How does the LinkedHashMap maintain insertion order?
+What are the performance differences between HashMap and TreeMap?
+How does TreeSet maintain sorted order?
+What are the different types of queues in Java (e.g., PriorityQueue, Deque)?
+Explain how to use Stream API with collections for data manipulation.
+What are bounded wildcards in generics, and how are they used in collections?
+
+Programming Questions
+----------------------------------
+Remove duplicates from a List?
+Sort a List of custom objects?
+Iterate over a Map in Java?
+Implement a stack using Java Collections?
+Sort a HashMap by Its Keys
+Sort a HashMap by Its Values
+Find Duplicate Elements Using a HashMap
+Find the Union of Two Sets
+Find the Intersection of Two Sets
+Sort a List Using TreeSet
+Find All Elements Greater Than a Given Value in a TreeSet
+Reverse a LinkedList
+Find the Middle Element of a LinkedList
+Convert List to Map
+Group Elements by a Condition
+Find the Maximum and Minimum in a Collection
+Flatten a List of Lists
+Purpose of the Collections.synchronizedList() method?
+Convert a List to an Array
+Find the Largest and Smallest Numbers in a List
+Sort a Set
+Remove Duplicates Using a Set
+Merge Two Maps
+Find Most Frequent Word in a Paragraph
+Find the Maximum Salary per Department
+Sort Orders by Priority
+WAP to sort a list of employees by their salary.
+WAP to remove duplicates from an ArrayList.
+WAP to find the most frequent element in a List.
+WAp to iterate through a HashMap using a forEach() loop.
+WAP to merge two HashMaps into one.
+WAP to convert a List of strings into a single string using Collectors.joining().
+WAP to find the second largest number in a collection.
+WAP to demonstrate the fail-fast behavior of Iterator.
+WAP to reverse the order of elements in a LinkedList.
+WAP to sort a TreeMap by its values instead of keys.
+------------------------------
+Difference between a shallow copy and a deep copy in collections?
+How does resizing work in HashMap?
+Differences between Stack and Deque?
+How do you handle a ConcurrentModificationException?
+Difference between HashSet and LinkedHashSet?
+
+Java 8 Features
+--------------------------------
+What are the main features introduced in Java 8?
+Explain the difference between map() and flatMap() in Streams.
+What is a functional interface? Name some built-in functional interfaces in Java 8.
+What are default methods in interfaces? Why were they introduced?
+What is a lambda expression? How does it simplify code?
+What are the differences between Stream and Collection in Java?
+What are the differences between findFirst() and findAny() in Streams?
+Explain Optional in Java 8 and its advantages.
+What are method references? Provide an example.
+What is the difference between filter(), map(), and reduce() in Streams?
+How can you create a stream in Java 8?
+What is the purpose of Collectors in Streams? Provide examples.
+Explain the difference between sequential and parallel streams.
+How can you sort a collection using Streams?
+How does forEach() in Streams differ from the traditional for loop?
+How can you convert a Stream into a collection like List, Set, or Map?
+How do you filter duplicate elements from a list using Streams?
+How can you find the maximum or minimum value in a collection using Streams?
+Explain short-circuiting operations in Streams with examples (limit(), skip()).
+What are terminal operations and intermediate operations in Streams?
+What is the use of the Predicate functional interface? Provide examples.
+What is the Consumer functional interface? How is it used?
+What is the Supplier functional interface? When would you use it?
+Explain the BiFunction interface and provide a real-world example.
+What is the Function interface? How is it used in Java 8?
+What are the main classes introduced in the Java 8 Date and Time API?
+How is LocalDate different from Date? Provide examples.
+What is Duration and Period in the Date and Time API?
+How can you calculate the difference between two dates in Java 8?
+What is ZonedDateTime? How is it used in applications?
+Default and Static Methods in Interfaces
+What are default methods in interfaces? Why are they useful?
+What happens if two interfaces have default methods with the same name?
+How do static methods in interfaces differ from default methods?
+What problem does the Optional class solve?
+How can you use Optional to avoid NullPointerException?
+What is the difference between Optional.of(), Optional.ofNullable(), and Optional.empty()?
+What is the use of the ifPresent() method in Optional?
+How can you provide a default value using Optional?
+How does Java 8 improve memory management with string deduplication in G1 Garbage Collector?
+Explain the differences between Collection.removeIf() and Stream.filter().
+How do you implement an infinite stream in Java 8?
+What is the use of Collectors.groupingBy()? Provide an example.
+How does Java 8 support functional programming?
+What are some use cases where Java 8 features significantly improve performance?
+Explain peek() in Streams. How is it different from forEach()?
+What is the role of Spliterator in Java 8? How is it different from Iterator?
+What is a UnaryOperator? How does it work?
+Can a lambda expression throw an exception? Provide an example.
+Explain the concept of effectively final variables in Java 8.
+What is the use of Stream.generate() and Stream.iterate()?
+
+Database and JPA/Hibernate
+----------------------------------
+What is the difference between JPA and Hibernate?
+What is the purpose of @Entity, @Table, and @Id annotations?
+What is the difference between get() and load() methods in Hibernate?
+What is HQL?
+Explain lazy loading in Hibernate.
+Different states of an entity in Hibernate?
+What is the SessionFactory in Hibernate?
+How does Hibernate handle transactions?
+Mapping strategies in Hibernate.
+Caching in Hibernate.
+How does lazy loading work in Hibernate?
+Difference between save() and persist() in Hibernate?
+Explain the concept of caching in Hibernate.
+What is JPA? How is it different from Hibernate?
+What are the advantages of using JPA?
+Explain the key components of JPA.
+What is the purpose of the EntityManager? How is it used?
+What is a persistence context? How does it work?
+Difference between EntityManager.persist() and EntityManager.merge()?
+Different states of a JPA entity? Explain with examples.
+Difference between EntityManager.flush() and EntityManager.refresh()?
+What is JPQL? How is it different from SQL?
+What is a JPA provider? Name some common providers.
+What is the use of the @Entity annotation?
+What is the purpose of the @Id annotation? Can we use composite keys?
+How does the @GeneratedValue annotation work? What are the strategies available?
+Difference between @Table and @Entity annotations?
+Explain the use of @Column annotation in JPA.
+What is the purpose of the @Transient annotation?
+What is the @NamedQuery annotation? How is it different from a native query?
+Differences between @OneToOne, @OneToMany, @ManyToOne, and @ManyToMany?
+What is the role of @JoinColumn? How is it used?
+How do you define a composite primary key in JPA? What annotations are required?
+How are relationships defined in JPA?
+Difference between mappedBy and @JoinColumn?
+How does the CascadeType work in JPA relationships?
+What is the purpose of FetchType.LAZY and FetchType.EAGER in JPA?
+Difference between owning and inverse sides in a JPA relationship.
+How can you avoid the N+1 select problem in JPA?
+What is an orphan removal in JPA? How is it enabled?
+
+Spring Boot
+----------------------------------
+What is Spring Boot? How is it different from the Spring Framework?
+What are the advantages of using Spring Boot?
+Difference between @Component and @Bean?
+How do you handle exceptions in a Spring Boot application?
+How to create RESTful APIs with Spring Boot?
+How to handle JSON and XML in Spring Boot?
+How to integrate Spring Data JPA with Spring Boot?
+How to secure Spring Boot applications with Spring Security?
+What are the different authentication mechanisms in Spring Security?
+How to test Spring Boot applications?
+What are the different testing frameworks supported by Spring Boot?
+
+Explain the concept of auto-configuration in Spring Boot. How does it work?
+What is the role of the @SpringBootApplication annotation? What does it include?
+What is the importance of the application.properties or application.yml file in Spring Boot?
+What is Spring Initializr, and how is it useful?
+How do you create a Spring Boot application from scratch?
+What is a starter in Spring Boot? Give examples of commonly used starters.
+Explain the Spring Boot execution flow.
+How does Spring Boot simplify dependency management?
+Configuration and Profiles
+How do you define and use profiles in Spring Boot?
+What is the purpose of the @Configuration annotation in Spring Boot?
+What are the differences between @Component, @Service, and @Repository?
+How do you externalize configuration in Spring Boot?
+How can you load custom configurations in Spring Boot?
+Difference between @ConfigurationProperties and @Value annotations?
+What is the use of @EnableAutoConfiguration?
+What does the @RestController annotation do?
+Difference between @Controller and @RestController?
+What is the use of the @RequestMapping annotation?
+What is the role of the @PathVariable and @RequestParam annotations?
+How does @CrossOrigin work in Spring Boot?
+Purpose of @Bean and @Autowired.
+What is the @SpringBootTest annotation used for?
+What is the role of @Transactional in Spring Boot?
+Different ways to inject dependencies in Spring Boot?
+Define a bean in Spring Boot?
+Difference between @Scope("singleton") and @Scope("prototype")?
+What is a FactoryBean in Spring Boot?
+
+Microservices and REST APIs
+----------------------------------
+What are microservices? Explain their key characteristics.
+What are the advantages and disadvantages of microservices architecture?
+How do microservices differ from monolithic architecture?
+What are the challenges of building microservices? How do you address them?
+Explain the concept of a service registry in microservices.
+What is service discovery, and why is it important in microservices?
+What is an API gateway, and what are its roles in microservices architecture?
+What are the best practices for designing microservices?
+How do you handle inter-service communication in microservices?
+What are circuit breakers, and how are they used in microservices?
+
+What is the role of Spring Boot in microservices architecture?
+How do you create a REST API in Spring Boot?
+What is RestTemplate, and how is it used?
+What is the difference between Monolithic and Microservices architecture?
+What is Service Discovery in Microservices?
+What is API Gateway in Microservices?
+What challenges do you face when implementing Microservices?
+How do you handle security in Microservices?
+What are the main principles of RESTful architecture?
+What is the difference between PUT and POST methods?
+What is CORS and how does it work?
+Implement pagination in REST APIs.
+Status codes in HTTP, and why are they important?
+What is WebClient, and how is it different from RestTemplate?
+Difference between synchronous and asynchronous communication in Spring Boot?
+How do you secure a REST API in Spring Boot?
+What are the main components of microservices architecture?
+How do services communicate in microservices (e.g., REST, messaging)?
+Role of API Gateway in microservices?
+Circuit Breaker pattern, and how is it implemented?
+Difference between RestTemplate and WebClient?
+What is a REST API? What are its key principles?
+Difference between REST and SOAP.
+Difference between PUT and POST in REST?
+Common HTTP status codes used in REST APIs?
+Difference between idempotent and non-idempotent HTTP methods?
+Advantages of using REST APIs?
+Handle versioning in REST APIs?
+What is HATEOAS, and how does it relate to REST?
+Different types of authentication mechanisms used in REST APIs?
+What is the role of a distributed tracing system in microservices?
+How do you ensure scalability in microservices?
+What are some strategies for handling failures in microservices?
+What is load balancing, and how does it apply to microservices?
+How do you implement a retry mechanism in microservices?
+What is the role of a circuit breaker pattern in microservices? Provide examples.
+
+Spring Boot Security
+-----------------------------
+What is Spring Security, and what are its key features?
+How does Spring Security work internally?
+What is the difference between authentication and authorization in Spring Security?
+What is the role of SecurityFilterChain in Spring Security?
+Explain the purpose of the WebSecurityConfigurerAdapter class. Why was it deprecated in Spring Security 5.7?
+What is the purpose of @EnableWebSecurity?
+What is OAuth2, and how do you implement it in Spring Boot?
+How do you handle authentication and authorization in Spring Boot?
+What is JWT, and how is it implemented in Spring Boot?
+How do you handle exceptions in Spring Boot?
+What is the role of @ControllerAdvice in Spring Boot?
+How is @ExceptionHandler used?
+Difference between authentication and authorization?
+Spring Security handle role-based access control?
+What is JWT, and how is it used in Spring Boot Security?
+How do you implement OAuth2 in Spring Boot?
+What is CSRF, and how does Spring Security protect against it?
+How do you configure HTTP Basic Authentication in Spring Boot?
+Explain how to create a custom login page using Spring Boot Security.
+What are some predefined filters used in Spring Security?
+How do you refresh an expired JWT token using Spring Boot Security?
+Some common security vulnerabilities that Spring Security protects against?
+What is method-level security, and how do you enable it in Spring Security?
+What are the differences between @PreAuthorize, @PostAuthorize, and @Secured annotations?
+How can you secure REST endpoints in Spring Security?
+What are roles and authorities in Spring Security?
+How do you implement role-based access control in Spring Security?
+What is the difference between HttpSecurity and WebSecurity in Spring Security?
+How do you customize the default login form provided by Spring Security?
+How can you configure Spring Security for stateless applications like REST APIs?
+What is the purpose of the SecurityContextHolder in Spring Security?
+How do you implement CSRF protection in Spring Security?
+What is JWT (JSON Web Token), and how is it used in Spring Security?
+How do you implement JWT authentication and authorization in a Spring Boot application?
+What are the advantages of using JWT over session-based authentication?
+How do you handle JWT expiration and token renewal in Spring Security?
+What are the potential security risks of JWT, and how can you mitigate them?
+What is OAuth2, and how is it implemented in Spring Security?
+How do you configure a Spring Boot application as an OAuth2 client?
+What is the difference between Authorization Code and Client Credentials grant types in OAuth2?
+What is the purpose of a resource server and an authorization server in Spring Security OAuth2?
+How do you secure REST APIs using OAuth2 in Spring Security?
+What are the common security vulnerabilities, and how does Spring Security help mitigate them?
+Integrate third-party authentication providers like Google or Facebook in Spring Boot?
+What is CORS, and how do you configure it in Spring Security?
+How do you implement multi-factor authentication in Spring Security?
+How does Spring Security handle password storage and encryption?
+How do you handle session management in Spring Security?
+Explain how to secure an API gateway in a microservices architecture using Spring Security.
+How do you log out a user programmatically in Spring Security?
+
+
+Performance and Monitoring
+-----------------------------
+How do you monitor a Spring Boot application?
+What is Spring Boot Actuator? How do you enable it?
+What are health endpoints in Spring Boot?
+
+Testing
+-----------------------------
+What are the testing tools provided by Spring Boot?
+How do you test REST APIs in Spring Boot?
+What is MockMvc, and how is it used?
+What is the difference between unit testing and integration testing in Spring Boot?
+Miscellaneous
+What is a filter, and how is it implemented in Spring Boot?
+What is a Spring Boot interceptor? How is it different from a filter?
+What is the difference between Spring Boot and Spring Cloud?
+What is Flyway or Liquibase, and how is it integrated with Spring Boot?
+How does Spring Boot handle caching? What is @Cacheable?
+
+Design Patterns
+----------------------------------
+What is a Singleton pattern, and how is it implemented in Java?
+Explain the Factory design pattern with an example.
+What is the difference between Strategy and Observer patterns?
+How is the Proxy pattern used in Java?
+What is the Template method pattern?
