@@ -3,23 +3,63 @@
 ==============================
 int a[] = { 12 , 12, 21, 223, 223, 12, 21 };
 =====================
-Sum Of All Numbers
+Find the sum of all elements in an array.
 
-Average Of All Numbers
+Find the largest element in an array.
 
-Square, Filter and Average of Numbers
+Find the smallest element in an array.
 
-Even & Odd Numbers using Streams
+Reverse an array.
 
-Numbers Starts With Prefix 2 using Streams
+Check if an array contains a specific value.
 
-Duplicate Numbers using Streams
+Find the index of a specific element in an array.
 
-Min & Max
+Count the number of even and odd numbers in an array.
 
-Get/ignore first 5 numbers using Limit & Skip in Streams
+Find the second largest element in an array.
 
-Get Second Highest/Lowest Number using Streams
+Find the second smallest element in an array.
+
+Remove duplicates from an array.
+Find the frequency of each element in an array.
+
+Sort an array in ascending or descending order.
+
+Merge two sorted arrays into a single sorted array.
+
+Find the intersection of two arrays.
+
+Find the union of two arrays.
+
+Rotate an array to the left or right by a given number of positions.
+
+Find the maximum and minimum element in an array using the minimum number of comparisons.
+
+Find the kth largest element in an array.
+
+Find the kth smallest element in an array.
+
+Find all pairs of integers in an array whose sum is equal to a given number.
+Find the missing number in an array of integers from 1 to N.
+
+Find the duplicate number in an array of integers from 1 to N.
+
+Find the subarray with the maximum sum (Kadane's Algorithm).
+
+Find the longest increasing subsequence in an array.
+
+Find the longest subarray with a given sum.
+
+Find the smallest positive integer missing from an unsorted array.
+
+Find the majority element in an array (appears more than n/2 times).
+
+Find the equilibrium index of an array (where the sum of elements on the left equals the sum on the right).
+
+Find the maximum product of a subarray.
+
+Find the minimum number of jumps to reach the end of an array.
 
 ==============================
 int a[] = { 12, 21, 223, 12, 21 };
