@@ -4,11 +4,8 @@
 int a[] = { 12 , 12, 21, 223, 223, 12, 21 };
 =====================
 Find the sum of all elements in an array.
-
 Find the largest element in an array.
-
 Find the smallest element in an array.
-
 Reverse an array.
 
 Check if an array contains a specific value.
